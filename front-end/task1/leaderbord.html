@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leaderbord</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="leaderboard.css">
+</head>
+
+<body>
+    <h2 class="heading">Leaderboard</h2>
+    <form action="expence.html">
+        <button class="home"><i class="fa-solid fa-house"></i></button>
+    </form>
+    <form action="/login.html">
+        <button class="logout"><i class="fa-solid fa-right-from-bracket"></i></button>
+    </form>
+    <div class="main-box" id="expencelist">
+        <div class="index">
+            <h3 class="name">Name</h3>
+            <h3 class="totalexpense">Total Expenses</h3>
+        </div>
+        <hr>
+        <div class="index">
+            <h3 class="name">dinesh</h3>
+            <h3 class="totalexpense">500</h3>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+
+    <script src="leaderboard.js"></script>
+</body>
+
+</html>

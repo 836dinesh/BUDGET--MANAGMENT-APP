@@ -1,0 +1,62 @@
+.heading {
+    font-family: Arial;
+    
+}
+
+.home {
+    font-family: Arial;
+    border-radius: 8px;
+    position: absolute;
+    left: 87%;
+    top: 5%;
+    border-style: none;
+    font-size: larger;
+    cursor: pointer;
+
+}
+
+.main-box {
+    border-style: ridge;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.logout {
+    position:absolute;
+    left:92%;
+    top:5%;
+    border-style: none;
+    font-size: larger;
+    cursor: pointer;
+
+    /* border-radius: 10px; */
+  
+}
+
+.index {
+    display: flex;
+    font-family: cursive;
+}
+.name {
+    margin-right: 300px;
+    margin-left: 50px;
+}
+hr {
+    width: 90%;
+}
+.totalexpense2 {
+    
+    margin-left: 400px;
+   
+}
+.namediv {
+    border-style: dotted;
+    width: 30%;
+    display: flex;
+}
+.expdiv {
+    border-style: dotted;
+    width: 30%;
+    display: flex;
+
+}
